@@ -1,0 +1,48 @@
+/*
+in the container:
+grid-templat=>is to determine the columns and rows;
+grid-areas=>is to name the areas;
+grid-area=>is to determine where the items should put in
+in child:
+gird-area=>is to determine which element for the name of the grid areas(which was determined previously)
+*/
+
+h1{
+    color:brown;
+    font-family:Tangerine;
+    font-size: 50pt;
+}
+img{
+    width:100px;
+    height:100px;
+
+}
+.container{
+    /*
+    width:100%;
+    height:100%;
+    text-align: center;
+    margin-top:200px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+    */
+    display:grid;
+    grid-template-columns:repeat(auto-fit,100px);
+    grid-template-rows:auto auto;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    align-content: center;
+    margin-top: 200px;
+    color:#fffff8;
+}
+div div div{
+    background-color: #444;
+}
+body{
+    background-image:url("https://th.bing.com/th/id/R.cde5df2c6474527341f95e494d1e0595?rik=I6M4GwX%2bSsr1VQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f2652580%2fimages%2fo-WEBSITE-facebook.jpg&ehk=MBCrg2ciAR61J2tEp573onTZDRpvORjOKccmXhZXWf0%3d&risl=&pid=ImgRaw&r=0")
+}
